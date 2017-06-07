@@ -402,9 +402,9 @@ import com.goeasy.genericlib.WebDriverCommonLib;
 				   postalCode.sendKeys(postalcode);
 				   //postalCode.click();
 				   streetAddress.sendKeys(street);
+				   streetAddress.click();
 				   driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 				   postalCode.click();
-				   Thread.sleep(10000);
 				   addressLine_2.click();
 				   city.sendKeys(citydata);
 				   //postalCode.click();
@@ -414,6 +414,7 @@ import com.goeasy.genericlib.WebDriverCommonLib;
 				    //driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
 				    WebElement ele1 = driver.findElement(By.xpath("//li[contains(text(), '"+province1+"')]"));
 				    ele1.click();
+				    
 
 					
            }
