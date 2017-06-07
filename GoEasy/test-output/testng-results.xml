@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="211208" started-at="2017-06-05T06:13:35Z" finished-at="2017-06-05T06:17:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="211208" started-at="2017-06-05T06:13:35Z" finished-at="2017-06-05T06:17:06Z">
+      <class name="com.goeasy.testcases_finance.UserFlow1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.goeasy.testcases_finance.UserFlow1@77caeb3e]" name="setUp" is-config="true" duration-ms="164" started-at="2017-06-05T11:43:35Z" finished-at="2017-06-05T11:43:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="configBrforeClass()[pri:0, instance:com.goeasy.testcases_finance.UserFlow1@77caeb3e]" name="configBrforeClass" is-config="true" duration-ms="4008" started-at="2017-06-05T11:43:35Z" finished-at="2017-06-05T11:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBrforeClass -->
+        <test-method status="PASS" signature="getLoan()[pri:0, instance:com.goeasy.testcases_finance.UserFlow1@77caeb3e]" name="getLoan" duration-ms="205621" started-at="2017-06-05T11:43:39Z" finished-at="2017-06-05T11:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoan -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.goeasy.testcases_finance.UserFlow1@77caeb3e]" name="closeBrowser" is-config="true" duration-ms="1547" started-at="2017-06-05T11:47:05Z" finished-at="2017-06-05T11:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.goeasy.testcases_finance.UserFlow1@77caeb3e]" name="getResult" is-config="true" duration-ms="10" started-at="2017-06-05T11:47:06Z" finished-at="2017-06-05T11:47:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getLoan status=SUCCESS method=UserFlow1.getLoan()[pri:0, instance:com.goeasy.testcases_finance.UserFlow1@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.goeasy.testcases_finance.UserFlow1@77caeb3e]" name="tearDown" is-config="true" duration-ms="292" started-at="2017-06-05T11:47:06Z" finished-at="2017-06-05T11:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.goeasy.testcases_finance.UserFlow1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

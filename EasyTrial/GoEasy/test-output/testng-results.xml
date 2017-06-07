@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="86100" started-at="2017-04-10T06:07:32Z" finished-at="2017-04-10T06:08:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="86100" started-at="2017-04-10T06:07:32Z" finished-at="2017-04-10T06:08:58Z">
+      <class name="com.goeasy.testcases_finanace.GetLoan">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.goeasy.testcases_finanace.GetLoan@239963d8]" name="setUp" is-config="true" duration-ms="199" started-at="2017-04-10T11:37:32Z" finished-at="2017-04-10T11:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="configBrforeClass()[pri:0, instance:com.goeasy.testcases_finanace.GetLoan@239963d8]" name="configBrforeClass" is-config="true" duration-ms="4020" started-at="2017-04-10T11:37:32Z" finished-at="2017-04-10T11:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBrforeClass -->
+        <test-method status="PASS" signature="oneWayBook()[pri:1, instance:com.goeasy.testcases_finanace.GetLoan@239963d8]" name="oneWayBook" duration-ms="82039" started-at="2017-04-10T11:37:36Z" finished-at="2017-04-10T11:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneWayBook -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.goeasy.testcases_finanace.GetLoan@239963d8]" name="getResult" is-config="true" duration-ms="13" started-at="2017-04-10T11:38:58Z" finished-at="2017-04-10T11:38:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=oneWayBook status=SUCCESS method=GetLoan.oneWayBook()[pri:1, instance:com.goeasy.testcases_finanace.GetLoan@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.goeasy.testcases_finanace.GetLoan@239963d8]" name="tearDown" is-config="true" duration-ms="296" started-at="2017-04-10T11:38:58Z" finished-at="2017-04-10T11:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.goeasy.testcases_finanace.GetLoan -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

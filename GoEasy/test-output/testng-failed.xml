@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test8(failed)">
+    <classes>
+      <class name="com.goeasy.testcases_finance.UserFlow1">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getResult"/>
+          <include name="configBrforeClass"/>
+        </methods>
+      </class> <!-- com.goeasy.testcases_finance.UserFlow1 -->
+      <class name="com.goeasy.testcases_finance.UserFlow2">
+        <methods>
+          <include name="configBrforeClass"/>
+          <include name="closeBrowser"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.goeasy.testcases_finance.UserFlow2 -->
+      <class name="com.goeasy.testcases_finance.UserFlow5">
+        <methods>
+          <include name="configBrforeClass"/>
+          <include name="getResult"/>
+          <include name="closeBrowser"/>
+          <include name="getLoan"/>
+        </methods>
+      </class> <!-- com.goeasy.testcases_finance.UserFlow5 -->
+      <class name="com.goeasy.testcases_finance.UserFlow6">
+        <methods>
+          <include name="configBrforeClass"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.goeasy.testcases_finance.UserFlow6 -->
+      <class name="com.goeasy.testcases_finance.UserFlow3">
+        <methods>
+          <include name="configBrforeClass"/>
+          <include name="getResult"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.goeasy.testcases_finance.UserFlow3 -->
+      <class name="com.goeasy.testcases_finance.ClearDataSF">
+        <methods>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.goeasy.testcases_finance.ClearDataSF -->
+      <class name="com.goeasy.testcases_finance.UserFlow4">
+        <methods>
+          <include name="configBrforeClass"/>
+          <include name="getResult"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.goeasy.testcases_finance.UserFlow4 -->
+    </classes>
+  </test> <!-- Test8(failed) -->
+</suite> <!-- Failed suite [Suite] -->
